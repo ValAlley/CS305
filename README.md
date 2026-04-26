@@ -1,2 +1,12 @@
 # CS305
-For the portfolio of CS305
+For the portfolio of CS305.
+Artemis Financial is a financial services company that requires the modernization of its software application to ensure secure data handling and financial transactions. The primary issue addressed was the need for a robust security framework to protect sensitive financial data from unauthorized access and to comply with regulatory standards.
+
+During the vulnerability assessment, I effectively identified critical security risks, such as outdated dependencies and the lack of enforced encrypted communications. Coding securely is vital because it prevents catastrophic data breaches that can lead to financial loss, legal liability, and damage to a company's reputation. Software security adds value by maintaining client trust and ensuring the long-term resilience of the company’s operations against evolving cyber threats.
+
+The most helpful part of the assessment was using automated tools like the OWASP Dependency-Check to uncover hidden vulnerabilities in external libraries. However, interpreting these results and deciding on the most effective mitigation strategies, such as transitioning to a more modern Java LTS version, presented a productive challenge.
+
+To increase layers of security, I implemented the Advanced Encryption Standard (AES-256) for data at rest and configured the application to require SSL/TLS (HTTPS) for all communications. In the future, I will continue to use industry-standard frameworks like NIST and OWASP to assess vulnerabilities and apply the principle of least privilege as a primary mitigation technique.
+
+I ensured the application remained functional and secure through a combination of manual code reviews and automated functional testing. After refactoring, I re-ran the OWASP Dependency-Check and performed static analysis to confirm that no new "supply chain" risks or vulnerabilities were introduced.
+Valuable tools and practices used in this project included the Maven dependency-check plugin, Java Security Standard Algorithm Names for selecting ciphers, and the integration of SHA-256 for file verification. These tools will be essential for maintaining secure lifecycles in future development tasks. For future employers, I would showcase the finalized Practices for Secure Software Report and the refactored RESTful API, as they demonstrate my ability to perform comprehensive security audits and implement modern cryptographic solutions.
